@@ -1,0 +1,44 @@
+
+#output{
+    width: 425px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.keyboard-div {
+    background-color: rgb(197, 37, 37);
+    width: fit-content;
+}
+
+.keyboard-div .first-row,
+.second-row,
+.third-row,
+.fourth-row {
+    display: flex;
+
+    width: fit-content;
+}
+
+.keyboard-div .first-row div,
+.second-row div,
+.third-row div,
+.fourth-row div {
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.keyboard-div .first-row div,
+.second-row div,
+.third-row div,
+.fourth-row div {}
+
+.first-row {}
+
+.key {
+    background-color: rgb(24, 9, 234);
+    padding: 5px;
+    margin: 5px;
+}
+
